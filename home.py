@@ -141,7 +141,7 @@ fig_hourly_sale.update_layout(
 
 st.plotly_chart(fig_hourly_sale, use_container_width=True)
 st.markdown('''
-    Le moyen de paiement le plus utilisé est le :red[Cash] ''')
+    Le moyen de paiement le plus utilisé est :red[PayPal] ''')
 
 st.subheader('Objectif 4: Déterminer dans quel pays du monde, les ventes sont plus élevées', divider='rainbow')
 

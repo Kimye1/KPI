@@ -69,7 +69,7 @@ def metrics():
 
  col2.metric(label="Total Chiffe d'affaire", value= f"{df_selection.Prix_total.sum():,.0f}",delta=df.Prix_total.median())
 
- col3.metric(label="vente moyenne par transaction", value= f"{round(df_selection["Prix_total"].mean(), 2)}",delta="Achat moyen")
+ col3.metric(label="vente moyenne par transaction", value= f"{df_selection.Prix_total.mean():,.0f}",delta="Achat moyen")
 
  style_metric_cards(background_color="#A7ADBA",border_left_color="#f20045",box_shadow="5px")
 

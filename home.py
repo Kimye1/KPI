@@ -8,7 +8,7 @@ import plotly.subplots as sp
 
 #Configuration de la barre de page 
 st.set_page_config(page_title="Kpi analyse financiere", page_icon="📈", layout="wide")  
-st.subheader("📈 Analyse de donnees ")
+st.subheader("📈 Analyse de donnees : DAKITSE-BENISSAN KIMYE ")
 
 # Chargement du fichier csv
 with open('style.css')as f:

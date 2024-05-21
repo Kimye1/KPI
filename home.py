@@ -7,8 +7,8 @@ import plotly.express as px
 import plotly.subplots as sp
 
 #Configuration de la barre de page 
-st.set_page_config(page_title="Kpi analyse financiere", page_icon="🌎", layout="wide")  
-st.subheader("📈 Business Analytics Dashboard ")
+st.set_page_config(page_title="Kpi analyse financiere", page_icon="📈", layout="wide")  
+st.subheader("📈 Analyse de donnees ")
 
 # Chargement du fichier csv
 with open('style.css')as f:
@@ -27,7 +27,7 @@ livraison=st.sidebar.multiselect(
      default=df["Livraison"].unique(),
 )
 methode_payer=st.sidebar.multiselect(
-    "Filtre par pays",
+    "Filtre par methode",
      options=df["Methode_payer"].unique(),
      default=df["Methode_payer"].unique(),
 )
